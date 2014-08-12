@@ -1,0 +1,126 @@
+﻿html {
+    background-color: black;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(../images/cloud.png);
+    margin: 0 auto;
+    width: 800px;
+    height: 125px;
+    position: fixed;
+}
+#container{
+    text-align: center;
+    padding-top: 135px;
+}
+p{
+    color: black;
+}
+.category{
+    margin-left: 305px;
+    margin-top: 36px;
+}
+.jokes{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.home{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.movies{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.uni{
+    opacity: 0.8;
+}
+.home:hover{
+    opacity: 1;
+}
+.movies:hover{
+    opacity: 1;
+}
+.jokes:hover{
+    opacity: 1;
+}
+.uni:hover{
+    opacity: 1;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul ul {
+    background: #5f6975;
+    list-style-type: none;
+    position: absolute;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    margin: 15px 40px;
+    color: #fff;
+}
+#nav{
+    list-style-type: none;
+}
+section {
+    padding-top: 130px;
+    padding-left: 20px;
+    background-color: silver;
+}
+section p {
+    font-family:'Comic Sans MS', cursive;
+    text-align:justify;
+}
+section article {
+    margin-top: 40px;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    
+}
+section article p {
+    margin: 0;
+    text-align:center;
+}
+section article img{
+    width: 180px;
+    height: 200px;
+}
+section .clear {
+    clear: both;
+}
+section .resume {
+    margin: 20px 15px;
+}
+section div {
+    padding-top: 20px;
+}
+section div img {
+    width: 750px;
+    height: 350px;
+}
+section div p {
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+nav #nav ul li:hover{
+    background-color: #9dafbf;
+}

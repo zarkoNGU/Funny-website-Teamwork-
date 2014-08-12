@@ -1,0 +1,146 @@
+﻿html {
+    background-image: url("../images/Monsters University/images (3).jpg");
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    background-color: blue;
+}
+.header{
+    background-image: url(../images/cloud.png);
+    margin: 0 auto;
+    width: 800px;
+    height: 125px;
+    position: fixed;
+}
+.container{
+    text-align: center;
+    padding-top: 135px;
+}
+p{
+    color: black;
+}
+.category{
+    margin-left: 305px;
+    margin-top: 36px;
+}
+.jokes{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.home{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.movies{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.uni{
+    opacity: 0.8;
+}
+.home:hover{
+    opacity: 1;
+}
+.movies:hover{
+    opacity: 1;
+}
+.jokes:hover{
+    opacity: 1;
+}
+.uni:hover{
+    opacity: 1;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul ul {
+    background: #5f6975;
+    list-style-type: none;
+    position: absolute;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    margin: 15px 40px;
+    color: #fff;
+    font-family: StarWars;
+}
+#nav{
+    list-style-type: none;
+}
+section {
+    padding-top: 130px;
+    padding-left: 20px;
+    background-color: green;
+}
+section p {
+    font-family:'Comic Sans MS', cursive;
+    text-align:justify;
+}
+section .nakov {
+    margin-top: 40px;
+}
+section .nakov img{
+    float:left;
+}
+section .nakov p {
+    margin: 0;
+    padding-left: 400px;
+}
+section .clear {
+    clear:both;
+}
+section .kurtev {
+    margin-top: 15px;
+}
+section .kurtev img {
+    float: left;
+    width: 240px;
+    height: 260px;
+}
+section .kurtev p {
+    margin: 0;
+    padding-left: 400px;
+}
+section .karamfilov {
+    margin-top: 15px;
+}
+section .karamfilov img {
+    float: left;
+    width: 340px;
+    height: 280px;
+}
+section .karamfilov p {
+    margin: 0;
+    padding-left: 400px;
+}
+section .vladi {
+    margin-top: 15px;
+}
+section .vladi img {
+    float: left;
+    width: 260px;
+    height: 260px;
+}
+section .vladi p {
+    margin: 0;  
+    padding-left: 400px;
+}
+a{
+    text-decoration: none;
+}
+nav #nav ul li:hover{
+    background-color: #9dafbf;
+}

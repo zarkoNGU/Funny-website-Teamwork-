@@ -1,0 +1,113 @@
+﻿body{
+    width: 800px;
+    margin: 0 auto;
+    background-color: blue;
+}
+.header{
+    background-image: url(../images/cloud.png);
+    margin: 0 auto;
+    width: 800px;
+    height: 125px;
+    position: absolute;
+}
+#container{
+    text-align: center;
+    padding-top: 135px;
+}
+p{
+    color: black;
+}
+.category{
+    margin-left: 305px;
+    margin-top: 36px;
+}
+.jokes{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.home{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.movies{
+    margin-right: 15px;
+    opacity: 0.8;
+}
+.uni{
+    opacity: 0.8;
+}
+.home:hover{
+    opacity: 1;
+}
+.movies:hover{
+    opacity: 1;
+}
+.jokes:hover{
+    opacity: 1;
+}
+.uni:hover{
+    opacity: 1;
+}
+section {
+    padding-top: 130px;
+    padding-left: 20px;
+    background-color: silver;
+}
+section hr {
+    width: 80%;
+}
+section div {
+    text-align:center;
+    width: 100%;
+}
+section div img {
+    width: 400px;
+    height: 300px;
+}
+section div:last-of-type {
+    padding-top: 20px;
+}
+section div a {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    font-family:'Monotype Sorts', dingbats, 'ITC Zapf Dingbats', fantasy;
+    border: 2px solid green;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li {
+    float: left;
+}
+nav ul ul {
+    background: #5f6975;
+    list-style-type: none;
+    position: absolute;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    margin: 15px 40px;
+    color: #fff;
+}
+#nav{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav #nav ul li:hover{
+    background-color: #9dafbf;
+}
